@@ -1,4 +1,4 @@
-#Advanced Git Cheat Sheet
+# Advanced Git Cheat Sheet
 
 | Command | Explanation & Link |
 | ------- | ------- |
