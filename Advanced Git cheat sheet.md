@@ -30,6 +30,7 @@ There are a few ways you can rollback commits in Git.
 There are some interesting considerations about how git object data is stored, such as the usage of sha-1.
 
 # Git Branches and Merging Cheat Sheet
+
 | Command | Explanation & Link |
 | ------- | ------- |
 | git branch | [Used to manage branches](https://git-scm.com/docs/git-branch) |
@@ -41,3 +42,13 @@ There are some interesting considerations about how git object data is stored, s
 | git merge <branch> | [Merge joins branches together](https://git-scm.com/docs/git-merge) |
 | git merge --abort | If there are merge conflicts (meaning files are incompatible), --abort can be used to abort the merge action. |
 | git log --graph --oneline | [This shows a summarized view of the commit history for a repo.](https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History) |
+
+# Git Remotes Cheat-sheet
+| Command | Explanation & Link |
+| ------- | ------- |
+| git remote  | [Lists remote repos](https://git-scm.com/docs/git-remote) |
+| git remote -v | [List remote repos verbosely](https://git-scm.com/docs/git-remote#Documentation/git-remote.txt--v) |
+| git remote show <name> | [Describes a single remote repo](https://git-scm.com/docs/git-remote#Documentation/git-remote.txt-emshowem) |
+| git remote update | [Fetches the most up-to-date objects](https://git-scm.com/docs/git-remote#Documentation/git-remote.txt-emupdateem) |
+| git fetch | [Downloads specific objects](https://git-scm.com/docs/git-fetch) |
+| git branch -r | [Lists remote branches](https://git-scm.com/docs/git-branch#Documentation/git-branch.txt--r) can be combined with other branch arguments to manage remote branches |
